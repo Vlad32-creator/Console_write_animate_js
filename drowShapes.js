@@ -19,7 +19,6 @@ function leftTriangle(num = 10, simbol = '*') {
     for (let i = 1; i < num; i++) {
         if (i !== 1) res += '\n';
         res += simbol.repeat(i);
-
     }
     return res;
 }
@@ -125,7 +124,6 @@ function romb(num = 9, simbol1 = '*', simbol2 = ' ') {
         res += simbol1.repeat(fill);
         res += simbol2.repeat(pad);
     }
-
     return res;
 }
 function squire2(num = 10, simbol1 = '*', simbol2 = ' ') {
