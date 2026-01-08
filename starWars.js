@@ -179,7 +179,6 @@ function game(speed = 100) {
         animateMob();
         checkCollision();
     }
-
     function draw() {
         clear();
         mobs.forEach(m => m.print());
